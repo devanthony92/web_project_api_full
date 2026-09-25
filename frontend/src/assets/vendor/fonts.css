@@ -1,0 +1,24 @@
+@font-face {
+	src: url(./fonts/web/Inter-Regular.woff2) format("woff2"),
+		url(./fonts/extras/Inter-Regular.ttf) format("truetype");
+	font-family: "Inter";
+	font-weight: normal;
+}
+@font-face {
+	src: url(./fonts/web/Inter-Black.woff2) format("woff2"),
+		url(./fonts/extras/Inter-Black.ttf) format("truetype");
+	font-family: "Inter";
+	font-weight: bold;
+}
+@font-face {
+	src: url(./fonts/web/yellowtail-regular.woff) format("woff");
+	font-family: "Yellowtail";
+}
+@font-face {
+	src: url(./fonts/extras/RobotoSlab-VariableFont_wght.ttf) format("truetype");
+	font-family: "Roboto Slab";
+}
+@font-face {
+	src: url(./fonts/extras/Delius-Regular.ttf) format("truetype");
+	font-family: "Delius";
+}

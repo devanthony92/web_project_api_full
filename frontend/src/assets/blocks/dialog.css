@@ -1,0 +1,19 @@
+.dialog--confirm {
+	width: 100%;
+	height: 180px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	gap: 10px;
+}
+
+.dialog--photo-edit {
+	width: 100%;
+	height: 270px;
+}
+
+.dialog__cancel {
+	background-color: transparent;
+	color: #000;
+	border: 1px solid #000;
+}

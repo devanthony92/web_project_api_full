@@ -1,0 +1,151 @@
+.auth {
+	max-width: 358px;
+	margin: 100px auto 0;
+	text-align: center;
+}
+
+.auth__title {
+	font-family: Inter, Arial, sans-serif;
+	font-weight: 900;
+	font-size: 24px;
+	color: #fff;
+	margin: 0 0 60px;
+}
+
+.auth__form {
+	display: flex;
+	flex-direction: column;
+}
+
+.auth__label {
+	display: block;
+	text-align: left;
+	margin-bottom: 30px;
+}
+
+.auth__input {
+	width: 100%;
+	background: transparent;
+	border: none;
+	border-bottom: 1px solid #ccc;
+	color: #fff;
+	font-family: Inter, Arial, sans-serif;
+	font-size: 14px;
+	padding-bottom: 10px;
+	box-sizing: border-box;
+}
+
+.auth__input::placeholder {
+	color: #ccc;
+}
+
+.auth__input:focus {
+	outline: none;
+	border-bottom-color: #fff;
+}
+
+.auth__input--error {
+	border-bottom-color: #ff5c5c;
+}
+
+.auth__input:-webkit-autofill,
+.auth__input:-webkit-autofill:hover,
+.auth__input:-webkit-autofill:focus {
+	-webkit-text-fill-color: #fff;
+	caret-color: #fff;
+	transition: background-color 9999s ease-in-out 0s;
+}
+
+.auth__password-wrapper {
+	position: relative;
+	display: flex;
+	align-items: center;
+}
+
+.auth__input--password {
+	padding-right: 30px;
+}
+
+.auth__password-toggle {
+	position: absolute;
+	right: 0;
+	bottom: 8px;
+	display: flex;
+	background: transparent;
+	border: none;
+	padding: 0;
+	margin: 0;
+	color: #ccc;
+	cursor: pointer;
+	line-height: 0;
+}
+
+.auth__password-toggle:hover {
+	color: #fff;
+}
+
+.auth__submit {
+	width: 100%;
+	height: 50px;
+	margin-top: 213px;
+	background-color: #fff;
+	color: #000;
+	border: none;
+	border-radius: 2px;
+	font-family: Inter, Arial, sans-serif;
+	font-size: 18px;
+	cursor: pointer;
+}
+
+.auth__submit:hover {
+	opacity: 80%;
+}
+
+.auth__submit--disabled {
+	background-color: transparent;
+	color: #c4c4c4;
+	border: 1px solid #c4c4c4;
+	cursor: not-allowed;
+}
+
+.auth__submit--disabled:hover {
+	opacity: 100%;
+}
+
+.auth__toggle-text {
+	font-family: Inter, Arial, sans-serif;
+	font-size: 14px;
+	color: #fff;
+	margin-top: 15px;
+}
+
+.auth__toggle-link {
+	color: #fff;
+}
+
+@media screen and (max-width: 500px) {
+	.auth {
+		max-width: 260px;
+		margin: 40px auto 0;
+	}
+
+	.auth__title {
+		font-size: 20px;
+		margin-bottom: 40px;
+	}
+
+	.auth__label {
+		margin-bottom: 20px;
+	}
+
+	.auth__submit,
+	.auth__submit--disabled {
+		height: 46px;
+		font-size: 16px;
+		margin-top: 100px;
+	}
+
+	.auth__toggle-text {
+		font-size: 12px;
+	}
+}
